@@ -1,4 +1,4 @@
-package com.premaseem.room;
+package com.premaseem.component.room;
 
 /*
 @author: Aseem Jain

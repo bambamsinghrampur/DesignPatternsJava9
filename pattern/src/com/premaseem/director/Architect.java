@@ -1,7 +1,7 @@
 package com.premaseem.director;
 
-import com.premaseem.builder.House;
-import com.premaseem.builder.HouseBuilder;
+import com.premaseem.houseBuilder.House;
+import com.premaseem.houseBuilder.HouseBuilder;
 
 /*
 @author: Aseem Jain

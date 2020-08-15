@@ -1,8 +1,8 @@
-package com.premaseem.builder;
+package com.premaseem.houseBuilder;
 
-import com.premaseem.room.BathRoom;
-import com.premaseem.room.BedRoom;
-import com.premaseem.room.LivingRoom;
+import com.premaseem.component.room.BathRoom;
+import com.premaseem.component.room.BedRoom;
+import com.premaseem.component.room.LivingRoom;
 
 /*
 @author: Aseem Jain
@@ -16,6 +16,7 @@ public class TwoBedroomHouseBuilder extends HouseBuilder{
     @Override
     public void addRooms () {
         getHouse().rooms.add(new BathRoom());
+        getHouse().rooms.add(new BedRoom());
         getHouse().rooms.add(new BedRoom());
         getHouse().rooms.add(new LivingRoom());
     }

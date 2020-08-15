@@ -1,6 +1,6 @@
-package com.premaseem.builder;
+package com.premaseem.houseBuilder;
 
-import com.premaseem.room.Room;
+import com.premaseem.component.room.Room;
 
 import java.util.ArrayList;
 import java.util.List;

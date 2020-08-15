@@ -1,4 +1,4 @@
-package com.premaseem.builder;
+package com.premaseem.houseBuilder;
 
 /*
 @author: Aseem Jain
@@ -7,12 +7,14 @@ package com.premaseem.builder;
 */
 /* "Abstract Builder" */
 public abstract class HouseBuilder {
+
     public House getHouse () {
         return house;
     }
-
+   //what component to build
     private House house =null;
-
+    // house set via constructer injection ,here composition is followed strong form of association
+    //a house is destroyed if a houseBuilder is destroyed
     public HouseBuilder(){
      house = new House();
    }

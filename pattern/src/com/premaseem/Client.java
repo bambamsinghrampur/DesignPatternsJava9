@@ -1,8 +1,7 @@
 package com.premaseem;
 
-import com.premaseem.builder.House;
-import com.premaseem.builder.OneBedroomHouseBuilder;
-import com.premaseem.builder.TwoBedroomHouseBuilder;
+import com.premaseem.houseBuilder.House;
+import com.premaseem.houseBuilder.OneBedroomHouseBuilder;
 import com.premaseem.director.Architect;
 
 /*
