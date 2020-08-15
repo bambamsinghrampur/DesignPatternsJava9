@@ -6,6 +6,7 @@ package com.premaseem;
 @link: https://premaseem.wordpress.com/category/computers/design-patterns/
 */
 
+import com.premaseem.factory.AbstractIceCreamFactory;
 import com.premaseem.icecreams.IceCream;
 import com.premaseem.milkshake.MilkShake;
 

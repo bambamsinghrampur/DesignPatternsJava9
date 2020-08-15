@@ -1,4 +1,4 @@
-package com.premaseem;
+package com.premaseem.factory;
 
 import com.premaseem.icecreams.IceCream;
 import com.premaseem.milkshake.MilkShake;
@@ -9,7 +9,7 @@ import com.premaseem.milkshake.MilkShake;
 @link: https://premaseem.wordpress.com/category/computers/design-patterns/
 */
 public abstract class AbstractIceCreamFactory {
-    abstract IceCream createIceCream(String choice);
-    abstract MilkShake createMilkShake(String choice);
+    public abstract IceCream createIceCream(String choice);
+    public abstract MilkShake createMilkShake(String choice);
 
 }

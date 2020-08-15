@@ -1,4 +1,4 @@
-package com.premaseem;
+package com.premaseem.factory;
 
 import com.premaseem.icecreams.ChocolateIceCream;
 import com.premaseem.icecreams.IceCream;
@@ -33,7 +33,7 @@ public class AmulIceCreamFactory extends AbstractIceCreamFactory{
     }
 
     @Override
-    MilkShake createMilkShake (String choice) {
+    public MilkShake createMilkShake(String choice) {
         MilkShake milkShake = null;
 
         if (choice.equalsIgnoreCase("Strawberry")){
