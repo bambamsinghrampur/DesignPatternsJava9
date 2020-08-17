@@ -31,7 +31,7 @@ public class GoogleShares implements SharePriceObservable{
 	@Override
 	public void notifyObservers() {
 	for(ShareTraderObserver shareBroker : shareTraders){
-		shareBroker.notifyCurrentPrice(getCurrentMarketPrice()," Google Inc. ");
+		shareBroker.getNotificOfCurrentPrice(getCurrentMarketPrice()," Google Inc. ");
 	} 
 		
 	}

@@ -30,7 +30,7 @@ public class AppleShares implements SharePriceObservable {
     @Override
     public void notifyObservers () {
         for (ShareTraderObserver shareBroker : shareTraders) {
-            shareBroker.notifyCurrentPrice(getCurrentMarketPrice(), " Apple Inc.  ");
+            shareBroker.getNotificOfCurrentPrice(getCurrentMarketPrice(), " Apple Inc.  ");
         }
 
     }
@@ -39,6 +39,7 @@ public class AppleShares implements SharePriceObservable {
         return currentMarketPrice;
     }
 
+   //setter should call notifyObservers
     public void setCurrentMarketPrice (Integer currentMarketPrice) {
         this.currentMarketPrice = currentMarketPrice;
         notifyObservers();

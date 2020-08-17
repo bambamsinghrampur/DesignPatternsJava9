@@ -64,6 +64,7 @@ public class ClientForShareTrading {
             SharePriceObservable sharePriceObservable) {
         Random rnd = new Random();
         for (int i = 0; i < 3; i++) {
+            //actually should be set by external system
             sharePriceObservable.setCurrentMarketPrice(rnd.nextInt());
         }
     }
